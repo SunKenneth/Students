@@ -2,15 +2,19 @@ package com.xxsun;
 
 public class Student {
 
-    String id;
+
+
     String name;
-    int  engilsh;
+    int  english;
     int  math;
 
-    public Student(String id, String name, int engilsh, int math) {
-        this.id = id;
+    public Student(String name, int english, int math) {
+
         this.name = name;
-        this.engilsh = engilsh;
+        this.english = english;
         this.math = math;
+    }
+    public void print(){
+        System.out.println(name+"\t"+math+"\t"+ english +"\t");
     }
 }
